@@ -1,0 +1,13 @@
+@charset "utf-8";
+
+html{
+  font-size: 16px;
+}
+
+h1{
+  font-size: 3.052rem;
+}
+
+.header {
+display: flex;
+}
