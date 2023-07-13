@@ -8,6 +8,23 @@ h1{
   font-size: 3.052rem;
 }
 
-.header {
+.header{
 display: flex;
+align-items: center;
+justify-content: space-between;
+background-color: aqua;
+margin-bottom: 0% ;
+}
+
+.button2 {
+ margin-top: 1rem;
+}
+
+.imagecompany{
+ margin-top: 0%;
+}
+
+.imagecompany img{
+ width: 100%;
+ height: 480px;
 }
