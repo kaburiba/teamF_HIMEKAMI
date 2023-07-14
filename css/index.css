@@ -20,12 +20,12 @@
 }
 
 .content2{
-  padding-left: 1%;
+  padding-left: 3%;
   padding-right: 1%;
   display: flex;
   justify-content: space-between;
 }
 
 .content2 img{
-  width: 25rem;
+  width: 90%;
 }

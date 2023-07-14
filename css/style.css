@@ -22,6 +22,22 @@ margin-bottom: 0% ;
    height:7rem;
 }
 
+.icon2 {
+  width: 50%;
+  justify-content: center;
+}
+
+.menu {
+  text-align: center;
+  font-size: 0.9rem;
+  margin-right: 2%;
+  margin-bottom: 0%;
+}
+
+.menu p{
+  margin-top: 1%;
+}
+
 .button2 {
  margin-top: 1rem;
 }
