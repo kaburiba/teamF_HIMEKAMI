@@ -18,3 +18,14 @@
   margin-top: 5rem;
   float: right;
 }
+
+.content2{
+  padding-left: 1%;
+  padding-right: 1%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.content2 img{
+  width: 25rem;
+}
