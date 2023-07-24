@@ -1,0 +1,11 @@
+ID auto increment int 11
+title varchar (255)
+content text 
+public_flg  boolean
+create_date datetime
+update_date datetime
+delete_flg boolean
+
+
+detabe-sunonakamiある　newsを一覧で表示する
+その一覧の中から特定の記事を見るプログラム
