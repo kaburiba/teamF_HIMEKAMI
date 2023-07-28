@@ -14,7 +14,7 @@
   width: 37rem;
 }
 
-.content1 button {
+.content1 a {
   margin-top: 5rem;
   float: right;
 }
@@ -53,9 +53,9 @@
   margin-right: 30%;
 }
 
-.content4 button {
+.content4 a {
   margin-top: 2%;
   float: right;
-  margin-right: 10%;
+  margin-right: 20%;
 }
 
