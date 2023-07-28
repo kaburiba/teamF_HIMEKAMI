@@ -1,0 +1,21 @@
+footer {
+  margin-top: 3%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start; /* contentと地図を左揃えにする */
+  align-items: flex-start;
+}
+
+.content {
+  flex: 0 0 30%;
+  margin-bottom: 20px;
+}
+
+.map {
+  flex: 0 0 66%; /* 地図がcontentの横幅の2倍の領域を占めるように調整 */
+}
+
+iframe {
+  width: 100%;
+  height: 300px; /* 地図の高さを調整する場合はここの値を変更してください */
+}

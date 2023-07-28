@@ -22,6 +22,22 @@ margin-bottom: 0% ;
    height:7rem;
 }
 
+.icon2 {
+  width: 50%;
+  justify-content: center;
+}
+
+.menu {
+  text-align: center;
+  font-size: 0.9rem;
+  margin-right: 2%;
+  margin-bottom: 0%;
+}
+
+.menu p{
+  margin-top: 1%;
+}
+
 .button2 {
  margin-top: 1rem;
 }
@@ -33,4 +49,72 @@ margin-bottom: 0% ;
 .imagecompany img{
  width: 100%;
  height: 480px;
+}
+
+footer {
+  background-color: #0BE382;
+  margin-top: 3%;
+  display: flex;
+  padding: 0 5%;
+  box-sizing: border-box;
+}
+
+footer h2{
+  padding-top: 3%;
+}
+
+footer > div:nth-of-type(1){
+width: 60%;
+}
+
+footer > div:nth-of-type(2){
+  width: 40%;
+  }
+
+  .footer_link1{
+    margin-top: 10%;
+    display: flex;
+  }
+
+.footer_link1 a{
+  margin-left: 5%;
+}
+
+.footer_link2{
+  margin-top: 5%;
+  display: flex;
+}
+
+.footer_link2 a{
+  margin-left: 5%;
+}
+
+.map {
+  margin-top: 3%;
+  padding: 0 5%;
+  padding-bottom: 5%;
+}
+
+iframe {
+  width: 100%;
+  height: 300px; /* 地図の高さを調整する場合はここの値を変更してください */
+}
+
+.example{
+  display: block;
+  width: 100px;
+  padding: 10px 0;
+  margin: auto;
+  background: #707070;
+  color: #FFF;
+  text-decoration: none;
+  text-align: center;
+  border-radius: 15px;
+}
+.example:hover{
+  background: #383838;
+}
+
+.campany{
+  margin-top: 10%;
 }
