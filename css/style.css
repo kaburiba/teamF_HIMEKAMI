@@ -136,14 +136,41 @@ iframe {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 200px;
-    height: 200px;
-    background: #6fa1ff;
-    color: #FFF;
+    width: 150px;
+    height: 150px;
+    background: #00EEFA;
+    color: #000000;
     text-decoration: none;
     text-align: center;
     margin: 10px 0;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+/* Assuming these classes are for the subbutton and imagecompany elements */
+.subbutton {
+  position: absolute;
+  top: 50%; /* Adjust this value as needed */
+  left: 50%; /* Adjust this value as needed */
+  transform: translate(-50%, -50%);
+  z-index: 2; /* Make sure subbutton is above the image */
+}
+
+.imagecompany {
+  position: relative; /* Set position to relative for the parent container */
+}
+
+/* Additional styles for the subbutton */
+.slbutton {
+  padding: 10px 20px;
+  text-decoration: none;
+  margin: 0 1%;
+}
+
+.subbutton{
+  display: flex;
+  margin-left: 30%;
+  margin-top: 10%;
+  justify-content:space-between;
 }
