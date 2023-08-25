@@ -85,6 +85,11 @@ footer > div:nth-of-type(2){
   display: flex;
 }
 
+.footer_link{
+  margin-top: 3%;
+  margin-left: 5%;
+}
+
 .footer_link2 a{
   margin-left: 5%;
 }
@@ -103,6 +108,7 @@ iframe {
 .example{
   display: block;
   width: 100px;
+  height: 40px;
   padding: 10px 0;
   margin: auto;
   background: #707070;
@@ -111,10 +117,33 @@ iframe {
   text-align: center;
   border-radius: 15px;
 }
+
+.ippan{
+  background-color: #00EEFA;
+  color: #000000;
+}
+
 .example:hover{
-  background: #383838;
+
 }
 
 .campany{
   margin-top: 10%;
+}
+
+.slbutton{
+  border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 200px;
+    background: #6fa1ff;
+    color: #FFF;
+    text-decoration: none;
+    text-align: center;
+    margin: 10px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }

@@ -1,0 +1,17 @@
+.menutitle{
+  margin-left: 3%;
+}
+
+.licon{
+    display: block;
+    width: 120px;
+    height: 120px;
+    margin: auto;
+    padding-top: auto;
+    background: #90a1e8;
+    color: #FFF;
+    text-decoration: none;
+    text-align: center;
+    justify-content: center;
+    border-radius: 15px;
+}
