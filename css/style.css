@@ -22,6 +22,22 @@ margin-bottom: 0% ;
    height:7rem;
 }
 
+.icon2 {
+  width: 50%;
+  justify-content: center;
+}
+
+.menu {
+  text-align: center;
+  font-size: 0.9rem;
+  margin-right: 2%;
+  margin-bottom: 0%;
+}
+
+.menu p{
+  margin-top: 1%;
+}
+
 .button2 {
  margin-top: 1rem;
 }
@@ -33,4 +49,128 @@ margin-bottom: 0% ;
 .imagecompany img{
  width: 100%;
  height: 480px;
+}
+
+footer {
+  background-color: #0BE382;
+  margin-top: 3%;
+  display: flex;
+  padding: 0 5%;
+  box-sizing: border-box;
+}
+
+footer h2{
+  padding-top: 3%;
+}
+
+footer > div:nth-of-type(1){
+width: 60%;
+}
+
+footer > div:nth-of-type(2){
+  width: 40%;
+  }
+
+  .footer_link1{
+    margin-top: 10%;
+    display: flex;
+  }
+
+.footer_link1 a{
+  margin-left: 5%;
+}
+
+.footer_link2{
+  margin-top: 5%;
+  display: flex;
+}
+
+.footer_link{
+  margin-top: 3%;
+  margin-left: 5%;
+}
+
+.footer_link2 a{
+  margin-left: 5%;
+}
+
+.map {
+  margin-top: 3%;
+  padding: 0 5%;
+  padding-bottom: 5%;
+}
+
+iframe {
+  width: 100%;
+  height: 300px; /* 地図の高さを調整する場合はここの値を変更してください */
+}
+
+.example{
+  display: block;
+  width: 100px;
+  height: 40px;
+  padding: 10px 0;
+  margin: auto;
+  background: #707070;
+  color: #FFF;
+  text-decoration: none;
+  text-align: center;
+  border-radius: 15px;
+}
+
+.ippan{
+  background-color: #00EEFA;
+  color: #000000;
+}
+
+.example:hover{
+
+}
+
+.campany{
+  margin-top: 10%;
+}
+
+.slbutton{
+  border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 150px;
+    background: #00EEFA;
+    color: #000000;
+    text-decoration: none;
+    text-align: center;
+    margin: 10px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Assuming these classes are for the subbutton and imagecompany elements */
+.subbutton {
+  position: absolute;
+  top: 50%; /* Adjust this value as needed */
+  left: 50%; /* Adjust this value as needed */
+  transform: translate(-50%, -50%);
+  z-index: 2; /* Make sure subbutton is above the image */
+}
+
+.imagecompany {
+  position: relative; /* Set position to relative for the parent container */
+}
+
+/* Additional styles for the subbutton */
+.slbutton {
+  padding: 10px 20px;
+  text-decoration: none;
+  margin: 0 1%;
+}
+
+.subbutton{
+  display: flex;
+  margin-left: 30%;
+  margin-top: 10%;
+  justify-content:space-between;
 }

@@ -1,7 +1,7 @@
 @charset "UTF-8";
 .indextitle{
-  margin-top: 3rem;
-  margin-left: 3rem;
+  margin-top: 4%;
+  margin-left: 4rem;
 }
 
 .content1{
@@ -14,7 +14,55 @@
   width: 37rem;
 }
 
-.content1 button {
+.content1 a {
   margin-top: 5rem;
   float: right;
+}
+
+.content2{
+  padding-left: 3%;
+  padding-right: 1%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.content2 img{
+  width: 90%;
+}
+
+.content3{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 3%;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+.news{
+  justify-content: space-between;
+  display: flex;
+  margin-top: 1%;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+.content5{
+  display: flex;
+  justify-content: space-between;
+  margin-left: 30%;
+  margin-right: 30%;
+}
+
+.content4 a {
+  margin-top: 2%;
+  float: right;
+  margin-right: 20%;
+}
+
+.textm{
+  font-size: 13px;
+}
+
+.naiyou{
+  font-size:10px;
 }
