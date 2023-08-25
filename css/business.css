@@ -1,0 +1,20 @@
+@charset "UTF-8";
+.indextitle{
+  margin-top: 3rem;
+  margin-left: 3rem;
+}
+
+.content1{
+  padding-left: 1%;
+  display: flex;
+}
+
+.content1 img{
+  padding-left: 3rem;
+  width: 37rem;
+}
+
+.content1 button {
+  margin-top: 5rem;
+  float: right;
+}
